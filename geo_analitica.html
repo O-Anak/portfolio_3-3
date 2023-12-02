@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="text/css" rel="stylesheet" href="css/css.css">
+    <title>Geometria Espacial</title>
+</head>
+
+<body>
+    <nav class="dp-menu">
+        <input type="checkbox" id="menu-toggle">
+        <label for="menu-toggle">&#9776; Menu</label>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a>1° trimestre</a>
+                <ul>
+                    <li><a href="probabilidade.html">Probabilidade</a></li>
+                    <li><a href="geo_poligonos.html">Geometria Plana - Polígonos</a></li>
+                    <li><a href="geo_triangulos.html">Geometria Plana - Triângulos</a></li>
+
+                </ul>
+            </li>
+            <li><a>2° trimestre</a>
+                <ul>
+                    <li><a href="geo_circunferencia.html">Geometria Plana - Circunferências</a></li>
+                    <li><a href="geo_areas.html">Geometria Plana - Áreas</a></li>
+                    <li><a href="geo_poliedros.html">Geometria Plana - Poliedros</a></li>
+
+                </ul>
+            </li>
+            <li><a>3° trimestre</a>
+                <ul>
+                    <li><a href="geo_geral.html">Geometria Espacial</a></li>
+                    <li><a href="geo_prisma.html">Prismas</a></li>
+                    <li><a href="geo_piramide.html">Pirâmides</a></li>
+                    <li><a href="geo_cilindro.html">Cilindros</a></li>
+                    <li><a href="geo_cone.html">Cones</a></li>
+                    <li><a href="geo_tronco.html">Troncos - Cones e Pirâmides</a></li>
+                    <li><a href="geo_esfera.html">Esferas</a></li>
+                    <li><a href="geo_analitica.html">Geometria Analítica</a></li>
+                </ul>
+            </li>
+            <li>
+                <a>Autoavaliação</a>
+                <ul>
+                    <li><a href="avaliacao_1.html">Avaliação da Proposta 1</a></li>
+                    <li><a href="avaliacao_2.html">Avaliação da Proposta 2</a></li>
+                    <li><a href="avaliacao_3.html">Avaliação da Proposta 3</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="agradecimento.html">Agradecimentos</a>
+
+            </li>
+        </ul>
+    </nav>
+    <h1>Geometria Analítica</h1>
+    <br>
+
+    <h2>Introdução</h2>
+    <p>O estudo da geometria analítica mistura o conceito da geometria com o sistema algébrico do plano cartesiano,
+        permitindo novas divisões nos polígonos e poliedros convencionais. Existem dois modelos de planos cartesianos, o
+        ortogonal ou bidimensional (x e y) e o ortogonal espacial ou tridimensional (x, y e z).
+    </p>
+    <div><img src="img/plano cartesiano.png"></div>
+    <h2>Pontos na geometria analítica</h2>
+    <p>A distância entre dois pontos quaisquer (A e B) no plano cartesiano ortogonal pode ser observada a partir da
+        distância horizontal e vertical “x” e “y” que A tem com B, montando a fórmula de pitágoras com as duas medidas e
+        a diagonal formada entre elas (distância). O valor de um ponto médio (C) entre dois pontos quaisquer (A e B) com
+        a soma da distância horizontal e vertical “x” e “y” de A para C e de B para C dividido por 2.</p>
+    <div><img src="img/l_analitica_de_triangulos.png"></div>
+    <p>Porém, em um ponto médio colinear exige o traçado de dois triângulos retângulos, definidos através da subtração
+        do maior ponto pelo menor ponto dos eixos coordenados. Pensando como um triângulo retângulo, podemos formar os
+        dois lados (oposto e adjacente) e definir o ângulo interno da diagonal, subtraindo o maior ponto pelo menor
+        ponto de cada eixo coordenado.</p>
+    <div><img src="img/formula - analitica pontos.png"></div>
+
+    <h2>Retas na geometria analítica</h2>
+    <p>O desenvolvimento de cálculos para gerar novas equações representa uma das principais funções de geometria
+        analítica, a razão de diferentes coeficientes lineares é a etapa mais simplificada desta funcionalidade. Muito
+        parecido com a descoberta do ângulo interno, vamos analisar dois pontos diferentes em uma reta e subtraí-los
+        entre si, resultando na declividade da reta. Quando observamos duas retas distintas no plano cartesiano, podemos
+        às classificar de três maneiras distintas:</p>
+    <li>Concorrentes: Têm um ponto de encontro entre as retas;</li>
+    <li>Paralelas/distintas: Não tem nenhum ponto de encontro (mesmo coeficiente angular);</li>
+    <li>Coincidentes: Todos os pontos são comuns (mesmo coeficiente angular e o produto do coeficiente angular é “-1”).
+    </li>
+    <div><img src="img/l_analitica_reta.png"></div>
+    <p>A interseção de duas retas acontece pela comparação entre as equações das retas por um ponto em comum, resultando
+        em diferentes soluções para cada classificação. Enquanto as concorrentes têm apenas uma solução, as coincidentes
+        tem infinitas e as paralelas não possuem nenhuma. No cálculo da distância de um ponto com a reta, temos uma
+        fórmula bem específica envolvendo as coordenadas do ponto P(x, y) e a equação da reta ax + by + c = 0. Contudo,
+        nada impede de relacionar o cálculo com trigonometria para achar a distância, apesar de ser mais complexo.
+        Aliás, o plano cartesiano nos permite decompor algumas figuras em diferentes triângulos ou pedaços de
+        triângulos, necessitando da reinterpretação da fórmula geral da área triangular conforme com a figura dada.
+    </p>
+    <div><img src="img/formula - analitica retas.png"></div>
+
+    <h2>Conicas na geometria analítica</h2>
+    <p>As cônicas são curvas planas formadas pela interseção de um plano com um cone circular, criando representações muito usuais como a circunferência, a parábola, a elipse e a hipérbole. A equação geral de segundo grau das cônicas muda conforme a curva plana, entretanto, podemos resolver todas simplesmente igualando com zero os termos não utilizados (um elemento A, B ou C deve ser diferente de zero).</p>
+    <div><img src="img/formula - analitica conica.png"></div>
+
+    <h2>Circunferência na geometria analítica</h2>
+    <p>A criação de uma circunferência no plano cartesiano acontece destinando a coordenada “x” e “y” do ponto central e traçando a circunferência a partir de um determinado raio. Ao avaliar o raio (r) entre um ponto central (P) e um ponto qualquer na circunferência (C) montamos uma relação PC = r. </p>
+    <div><img src="img/analitica - circunferencia.jpg"></div>
+    <p>A equação reduzida da circunferência pode ser descrita pela relação das coordenadas “x” e “y” do ponto escolhido na circunferência subtraídas pela relação das coordenadas “x” e “y” ponto central (“a” e “b”). Além disso, conseguimos formular a equação geral da circunferência através do desenvolvimento da equação reduzida. </p>
+    <div><img src="img/formula - analitica circunferencia.png"></div>
+
+    <h2>Método de completar os quadrados</h2>
+    <p>O método de completar os quadrados (fecha a equação) permite regredir a equação geral para a equação reduzida, simplificando a expressão e fazendo o caminho oposto ao método do produto notável (abre a equação). Os passos para completar os quadrados são divididos em aplicar uma raiz quadrada nos elementos “a” e “b” e  em verificar a afirmação “b = 2*a*c” através da multiplicação das raízes obtidas por 2. Algumas expressões, conhecidas como quadrados perfeitos podem ser reduzidas seguindo as respectivas orientações, entretanto, nas expressões que não são quadrados perfeitos, existe um procedimento adicional no cálculo.</p>
+    <p>Para modificar corretamente uma expressão não perfeita, vamos começar dividindo o elemento “b” por 2x, resultando no valor reduzido da equação. Logo em seguida, elevamos o valor obtido ao quadrado e o adicionamos na expressão junto de outro valor numericamente igual com o sinal inverso, visando igualar a equação. Na última etapa basta reduzir a expressão a partir do valor obtido, deixando o restante dos elementos fora do parênteses.</p>
+    <div><img src="img/formula - analitica quadrado.png"></div>
+
+    <br>
+
+    <div>
+        <a href="geo_esfera.html"><button>Página Anterior</button></a>
+        <a href="avaliacao_3.html"><button>Autoavaliação</button></a>
+        <a href="index.html"><button>Retornar ao Menu</button></a>
+    </div>
+</body>
+
+</html>

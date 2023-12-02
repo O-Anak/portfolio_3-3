@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="text/css" rel="stylesheet" href="css/css.css">
+    <title>Geometria Espacial - Poliedros</title>
+</head>
+
+<body>
+    <nav class="dp-menu">
+        <input type="checkbox" id="menu-toggle">
+        <label for="menu-toggle">&#9776; Menu</label>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a>1° trimestre</a>
+                <ul>
+                    <li><a href="probabilidade.html">Probabilidade</a></li>
+                    <li><a href="geo_poligonos.html">Geometria Plana - Polígonos</a></li>
+                    <li><a href="geo_triangulos.html">Geometria Plana - Triângulos</a></li>
+
+                </ul>
+            </li>
+            <li><a>2° trimestre</a>
+                <ul>
+                    <li><a href="geo_circunferencia.html">Geometria Plana - Circunferências</a></li>
+                    <li><a href="geo_areas.html">Geometria Plana - Áreas</a></li>
+                    <li><a href="geo_poliedros.html">Geometria Plana - Poliedros</a></li>
+
+                </ul>
+            </li>
+            <li><a>3° trimestre</a>
+                <ul>
+                    <li><a href="geo_geral.html">Geometria Espacial</a></li>
+                    <li><a href="geo_prisma.html">Prismas</a></li>
+                    <li><a href="geo_piramide.html">Pirâmides</a></li>
+                    <li><a href="geo_cilindro.html">Cilindros</a></li>
+                    <li><a href="geo_cone.html">Cones</a></li>
+                    <li><a href="geo_tronco.html">Troncos - Cones e Pirâmides</a></li>
+                    <li><a href="geo_esfera.html">Esferas</a></li>
+                    <li><a href="geo_analitica.html">Geometria Analítica</a></li>
+                </ul>
+            </li>
+            <li>
+                <a>Autoavaliação</a>
+                <ul>
+                    <li><a href="avaliacao_1.html">Avaliação da Proposta 1</a></li>
+                    <li><a href="avaliacao_2.html">Avaliação da Proposta 2</a></li>
+                    <li><a href="avaliacao_3.html">Avaliação da Proposta 3</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="agradecimento.html">Agradecimentos</a>
+
+            </li>
+        </ul>
+    </nav>
+    <h1>Geometria Espacial - Poliedros</h1>
+    <br>
+
+    <h2>Geometria espacial</h2>
+    <p>A geometria espacial, conhecida como geometria clássica, foi escrita por Euclides em sua obra “Os elementos”, que
+        reúne os treze livros do autor dentro da mesma coleção. O método euclidiano consiste em deduzir primeiramente as
+        vertentes “óbvias” dos teoremas, como axiomas e postulados.</p>
+    <p>Euclides sustenta toda a teoria geometria clássica apenas com cinco postulados,sendo o quinto deles muito
+        criticado pela falta de transparência, não era tão claro assim uma maneira para testá-lo corretamente. Contudo,
+        devido a falta de recursos e o risco de desequilibrar a geometria clássica, tão simples e usual, os matemáticos
+        da era anteriores ao século XVIII, apesar de criticar, admitiam a dificuldade de contornar o quinto postulado e
+        construir algo novo. Depois das diversas amostras coletadas por Giovanni Girolamo Saccheri (1667-1733) e Johann
+        Heinrich Lambert (1728-1777), novos nomes apareceram e criaram as geometrias não euclidianas como a hiperbólica
+        e a elíptica.</p>
+    <ul>
+        <li>1 – Pode-se traçar uma (única) reta (segmento) por quaisquer dois pontos;</li>
+        <li>2 – Pode-se continuar (de modo único) uma reta infinitamente;</li>
+        <li>3 – Pode-se traçar uma circunferência com quaisquer centro e raio;</li>
+        <li>4 – Todos os ângulos retos são iguais;</li>
+        <li>5 – Se uma reta corta duas outras retas formando ângulos colaterais internos cuja soma é menor do que dois
+            retos, então as duas retas, se continuadas infinitamente, encontram-se no lado onde estão os ângulos cuja
+            soma é menor do que dois retos.</li>
+    </ul>
+    <p>“Deixei a ciência das paralelas em paz. Eu me dispus a [...] remover a falha da geometria [mas] voltei atrás
+        quando vi que ninguém pode chegar no fim dessa noite.” Wolfgang Bolyai, pai de János Bolyai</p>
+    <br>
+
+    <h2>Conhecimentos básicos</h2>
+    <p>Face: Polígonos bidimensionais colocados em espaços tridimensionais formam figuras com profundidade e área
+        interna.</p>
+    <p>Aresta: Segmentos de retas que delimitam o espaço das faces.</p>
+    <p>Vértice: Ponto de encontro de duas ou mais arestas.</p>
+    <p>Poliedros convexos: figuras expandidas “para fora”, sem qualquer espaço “vazio” dentro. Uma mesma reta nunca deve
+        adentrar na área de um polígono convexo em dois momentos diferentes na sua trajetória, independente da posição
+        da reta.</p>
+    <p>Poliedros não convexos: figuras expandidas em variadas direções, deixando espaços “vazios” dentro. Uma mesma reta
+        pode adentrar na área de um polígono convexo em dois momentos diferentes na sua trajetória.</p>
+    <br>
+
+    <h2>Relação de Euler</h2>
+    <p>A relação descrita por Euler (F + V = A + 2) determina o número de arestas, vértices e faces dos poliedros
+        convexos. Dessa forma, podemos concluir toda a estrutura apenas com o conhecimento da forma da face e do número
+        de faces ou arestas.</p>
+    <br>
+
+    <h2>Exemplo 6:</h2>
+    <p>Um rombicuboctaedro é um poliedro arquimediano convexo com oito triângulos equiláteros e dezoito quadrados. O
+        número de arestas pode ser calculado multiplicando o número de faces iguais pelo sua respectiva quantidade de
+        lados; somando o valor de arestas de todos as faces diferentes da figura e dividindo por 2. Havendo dois
+        elementos da fórmula, basta aplicá-la para obter o número de vértices.</p>
+        <div><img src="img/rombicuboctaedro.png"></div>
+    <br>
+
+    <div>
+        <a href="geo_areas.html"><button>Página Anterior</button></a>
+        <a href="avaliacao_2.html"><button>Avançar Conteúdo</button></a>
+        <a href="index.html"><button>Retornar ao Menu</button></a>
+    </div>
+</body>
+
+</html>
